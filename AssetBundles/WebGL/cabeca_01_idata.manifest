@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3856178960
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a0958385e184c849a7ad2304567461c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d4417e1d7cdb1a718286dc6ed7c644f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49719ed0c0198db4db46c602432b5b41, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Corpo/IData/Editor/Resources/Cabeca_01_IData.asset
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_corpo_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_dentes_fundo_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/dentes2

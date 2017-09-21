@@ -1,0 +1,3009 @@
+ManifestFileVersion: 0
+CRC: 3432861975
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bg_01
+      Dependencies: {}
+    Info_1:
+      Name: bg_01_bgdata
+      Dependencies:
+        Dependency_0: bg_01
+    Info_2:
+      Name: bg_02
+      Dependencies: {}
+    Info_3:
+      Name: bg_02_bgdata
+      Dependencies:
+        Dependency_0: bg_02
+    Info_4:
+      Name: bg_03
+      Dependencies: {}
+    Info_5:
+      Name: bg_03_bgdata
+      Dependencies:
+        Dependency_0: bg_03
+    Info_6:
+      Name: bg_04
+      Dependencies: {}
+    Info_7:
+      Name: bg_04_bgdata
+      Dependencies:
+        Dependency_0: bg_04
+    Info_8:
+      Name: bg_pa_01
+      Dependencies: {}
+    Info_9:
+      Name: bg_pa_01_bgdata
+      Dependencies:
+        Dependency_0: bg_pa_01
+    Info_10:
+      Name: bg_praia_01
+      Dependencies: {}
+    Info_11:
+      Name: bg_praia_01_bgdata
+      Dependencies:
+        Dependency_0: bg_praia_01
+    Info_12:
+      Name: mat_corpo_01
+      Dependencies:
+        Dependency_0: t_n_avatar_corpo_fl
+        Dependency_1: custom/bumped specular rim
+    Info_13:
+      Name: mat_terno_m_01
+      Dependencies:
+        Dependency_0: custom/bumped specular rim
+    Info_14:
+      Name: t_d_terno_masculino
+      Dependencies: {}
+    Info_15:
+      Name: t_n_avatar_corpo_fl
+      Dependencies: {}
+    Info_16:
+      Name: kit_terno_m_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_terno_m_01
+        Dependency_2: t_d_terno_masculino
+        Dependency_3: kit_terno_masculinoavatar
+    Info_17:
+      Name: mat_terno_f_01
+      Dependencies:
+        Dependency_0: t_d_terno_feminino
+        Dependency_1: t_n_terno_feminino
+        Dependency_2: custom/bumped specular rim
+    Info_18:
+      Name: t_d_terno_feminino
+      Dependencies: {}
+    Info_19:
+      Name: t_n_terno_feminino
+      Dependencies: {}
+    Info_20:
+      Name: kit_terno_f_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_terno_f_01
+        Dependency_2: t_d_terno_feminino
+        Dependency_3: kit_terno_femininoavatar
+    Info_21:
+      Name: mat_diversos_01
+      Dependencies:
+        Dependency_0: d_kit_inicial_01
+        Dependency_1: n_kit_inicial_01
+        Dependency_2: custom/bumped specular rim
+    Info_22:
+      Name: d_kit_inicial_01
+      Dependencies: {}
+    Info_23:
+      Name: n_kit_inicial_01
+      Dependencies: {}
+    Info_24:
+      Name: luva_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mesh_luva_01
+    Info_25:
+      Name: mat_oculos_01
+      Dependencies:
+        Dependency_0: custom/bumped specular rim
+    Info_26:
+      Name: mat_vidros_01
+      Dependencies:
+        Dependency_0: custom/transparent/diffuse
+    Info_27:
+      Name: oculos_01_idata
+      Dependencies:
+        Dependency_0: mat_oculos_01
+        Dependency_1: mat_vidros_01
+        Dependency_2: mesh_oculos_01
+    Info_28:
+      Name: luva_02_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mesh_luva_02
+    Info_29:
+      Name: mat_noel_01
+      Dependencies:
+        Dependency_0: t_d_kitpapainoel
+        Dependency_1: t_n_kitpapainoel
+        Dependency_2: custom/bumped specular rim
+    Info_30:
+      Name: t_d_kitpapainoel
+      Dependencies: {}
+    Info_31:
+      Name: t_n_kitpapainoel
+      Dependencies: {}
+    Info_32:
+      Name: kit_natal_m_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_noel_01
+        Dependency_2: t_d_kitpapainoel
+        Dependency_3: kit_natal_masculino_01avatar
+    Info_33:
+      Name: mat_kimono
+      Dependencies:
+        Dependency_0: t_n_kit_kimono
+        Dependency_1: custom/bumped specular rim
+    Info_34:
+      Name: t_d_kit_kimono_branco_01
+      Dependencies: {}
+    Info_35:
+      Name: human_controller
+      Dependencies:
+        Dependency_0: idle
+        Dependency_1: out
+        Dependency_2: in
+        Dependency_3: hatswap
+        Dependency_4: legsswap
+        Dependency_5: hairswap
+        Dependency_6: torsoswap
+        Dependency_7: glassswap
+        Dependency_8: glovesswap
+        Dependency_9: footswap
+        Dependency_10: eyebrowswap
+        Dependency_11: in_left
+        Dependency_12: out_left
+        Dependency_13: idle_deumadica
+        Dependency_14: deumadica_out
+        Dependency_15: deumadica_in
+        Dependency_16: idle_recomendacao_01
+        Dependency_17: happy01
+        Dependency_18: happy02
+        Dependency_19: happy03
+        Dependency_20: sad01
+        Dependency_21: sad02
+        Dependency_22: sad03
+        Dependency_23: normal01
+        Dependency_24: normal02
+        Dependency_25: normal03
+        Dependency_26: idle_olhasonotificando_01
+        Dependency_27: idle_olhasoorientando_01
+        Dependency_28: idle_olasoparabenizando_01
+    Info_36:
+      Name: t_n_kit_kimono
+      Dependencies: {}
+    Info_37:
+      Name: kit_kimono_01_branco_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_kimono
+        Dependency_2: t_d_kit_kimono_branco_01
+        Dependency_3: kit_kimono_exposedcontroller
+        Dependency_4: kit_kimono_01avatar
+    Info_38:
+      Name: t_d_kit_kimono_azul_01
+      Dependencies: {}
+    Info_39:
+      Name: kit_kimono_01_azul_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_kimono
+        Dependency_2: t_d_kit_kimono_azul_01
+        Dependency_3: kit_kimono_exposedcontroller
+        Dependency_4: kit_kimono_01avatar
+    Info_40:
+      Name: t_d_kit_kimono_preto_01
+      Dependencies: {}
+    Info_41:
+      Name: kit_kimono_01_preto_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_kimono
+        Dependency_2: t_d_kit_kimono_preto_01
+        Dependency_3: kit_kimono_exposedcontroller
+        Dependency_4: kit_kimono_01avatar
+    Info_42:
+      Name: mat_cabelo_f
+      Dependencies:
+        Dependency_0: t_n_cabelos_fem_kit01
+        Dependency_1: custom/bumped specular rim
+    Info_43:
+      Name: t_n_cabelos_fem_kit01
+      Dependencies: {}
+    Info_44:
+      Name: kit_natal_f_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_noel_01
+        Dependency_2: t_d_kitpapainoel
+        Dependency_3: mat_cabelo_f
+        Dependency_4: kit_natal_feminino_01avatar
+    Info_45:
+      Name: t_d_kit_kimono_rosa_01
+      Dependencies: {}
+    Info_46:
+      Name: kit_kimono_01_rosa_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_kimono
+        Dependency_2: t_d_kit_kimono_rosa_01
+        Dependency_3: kit_kimono_exposedcontroller
+        Dependency_4: kit_kimono_01avatar
+    Info_47:
+      Name: oculos_02_idata
+      Dependencies:
+        Dependency_0: mat_oculos_01
+        Dependency_1: mat_vidros_01
+        Dependency_2: mesh_lente_02
+    Info_48:
+      Name: mat_relogio
+      Dependencies:
+        Dependency_0: t_n_relogio_01
+        Dependency_1: custom/bumped specular rim
+    Info_49:
+      Name: t_d_relogio_01_azul
+      Dependencies: {}
+    Info_50:
+      Name: t_n_relogio_01
+      Dependencies: {}
+    Info_51:
+      Name: relogio_01_azul_idata
+      Dependencies:
+        Dependency_0: mat_relogio
+        Dependency_1: t_d_relogio_01_azul
+        Dependency_2: relogio
+    Info_52:
+      Name: pulseira_rock_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mesh_bracelete_01
+    Info_53:
+      Name: t_d_relogio_01_laranja
+      Dependencies: {}
+    Info_54:
+      Name: relogio_01_laranja_idata
+      Dependencies:
+        Dependency_0: mat_relogio
+        Dependency_1: t_d_relogio_01_laranja
+        Dependency_2: relogio
+    Info_55:
+      Name: t_d_relogio_01_verde
+      Dependencies: {}
+    Info_56:
+      Name: relogio_01_verde_idata
+      Dependencies:
+        Dependency_0: mat_relogio
+        Dependency_1: t_d_relogio_01_verde
+        Dependency_2: relogio
+    Info_57:
+      Name: t_d_relogio_01_pink
+      Dependencies: {}
+    Info_58:
+      Name: relogio_01_rosa_idata
+      Dependencies:
+        Dependency_0: mat_relogio
+        Dependency_1: t_d_relogio_01_pink
+        Dependency_2: relogio
+    Info_59:
+      Name: placa_deumadica_withcollider
+      Dependencies:
+        Dependency_0: mat_deumadica_01
+        Dependency_1: placa_deumadica
+    Info_60:
+      Name: mat_deumadica_01
+      Dependencies:
+        Dependency_0: deumadica
+    Info_61:
+      Name: deumadica
+      Dependencies: {}
+    Info_62:
+      Name: placa_deumadica_mainiddle
+      Dependencies: {}
+    Info_63:
+      Name: placa_deumadica_instart
+      Dependencies: {}
+    Info_64:
+      Name: placa_deumadica_outend
+      Dependencies: {}
+    Info_65:
+      Name: placa_deumadica
+      Dependencies: {}
+    Info_66:
+      Name: placa_deumadica_idata
+      Dependencies:
+        Dependency_0: placa_deumadica_withcollider
+        Dependency_1: mat_deumadica_01
+        Dependency_2: deumadica
+        Dependency_3: placa_deumadica_exposedcontroller
+    Info_67:
+      Name: oculos_04_idata
+      Dependencies:
+        Dependency_0: mat_oculos_01
+        Dependency_1: mat_vidros_01
+        Dependency_2: mesh_oculos_04
+    Info_68:
+      Name: oculos_03_idata
+      Dependencies:
+        Dependency_0: mat_oculos_01
+        Dependency_1: mat_vidros_01
+        Dependency_2: mesh_lente_03
+    Info_69:
+      Name: oculos_05_idata
+      Dependencies:
+        Dependency_0: mat_oculos_01
+        Dependency_1: mat_vidros_01
+        Dependency_2: mesh_oculos_05
+    Info_70:
+      Name: mat_dentes_fundo_01
+      Dependencies: {}
+    Info_71:
+      Name: olhos_01_idata
+      Dependencies:
+        Dependency_0: mat_dentes_fundo_01
+        Dependency_1: am_mesh_eyes
+    Info_72:
+      Name: oculos_06_idata
+      Dependencies:
+        Dependency_0: mat_oculos_01
+        Dependency_1: mat_vidros_01
+        Dependency_2: mesh_lente_06
+    Info_73:
+      Name: mat_camisa_regata
+      Dependencies:
+        Dependency_0: t_n_camiseta_regata_01
+        Dependency_1: custom/bumped specular rim
+    Info_74:
+      Name: t_d_camiseta_regata_preta_01
+      Dependencies: {}
+    Info_75:
+      Name: t_n_camiseta_regata_01
+      Dependencies: {}
+    Info_76:
+      Name: camiseta_regata_01_preta_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_preta_01
+        Dependency_3: corpo
+    Info_77:
+      Name: t_d_camiseta_regata_lilas_01
+      Dependencies: {}
+    Info_78:
+      Name: camiseta_regata_01_lilas_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_lilas_01
+        Dependency_3: corpo
+    Info_79:
+      Name: t_d_camiseta_regata_rosa_01
+      Dependencies: {}
+    Info_80:
+      Name: camiseta_regata_01_rosa_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_rosa_01
+        Dependency_3: corpo
+    Info_81:
+      Name: t_d_camiseta_regata_vermelha_01
+      Dependencies: {}
+    Info_82:
+      Name: camiseta_regata_01_vermelho_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_vermelha_01
+        Dependency_3: corpo
+    Info_83:
+      Name: t_d_camiseta_regata_vermelha_tenis_01
+      Dependencies: {}
+    Info_84:
+      Name: camiseta_regata_01_vermelha_tenis_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_vermelha_tenis_01
+        Dependency_3: corpo
+    Info_85:
+      Name: t_d_camiseta_regata_laranja_01
+      Dependencies: {}
+    Info_86:
+      Name: camiseta_regata_01_laranja_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_laranja_01
+        Dependency_3: corpo
+    Info_87:
+      Name: t_d_camiseta_regata_amarela_skate_01
+      Dependencies: {}
+    Info_88:
+      Name: camiseta_regata_01_amarela_skate_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_amarela_skate_01
+        Dependency_3: corpo
+    Info_89:
+      Name: mat_camisa_longa_polo
+      Dependencies:
+        Dependency_0: t_n_camiseta_m_l_polo
+        Dependency_1: custom/bumped specular rim
+    Info_90:
+      Name: t_n_camiseta_m_l_polo
+      Dependencies: {}
+    Info_91:
+      Name: camiseta_manga_longa_polo_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_longa_polo
+        Dependency_2: corpo
+    Info_92:
+      Name: t_d_camiseta_regata_azul_01
+      Dependencies: {}
+    Info_93:
+      Name: camiseta_regata_01_azul_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_azul_01
+        Dependency_3: corpo
+    Info_94:
+      Name: camiseta_regata_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: corpo
+    Info_95:
+      Name: t_d_camiseta_regata_dunuts_01
+      Dependencies: {}
+    Info_96:
+      Name: camiseta_regata_01_donuts_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_regata
+        Dependency_2: t_d_camiseta_regata_dunuts_01
+        Dependency_3: corpo
+    Info_97:
+      Name: caneca_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: caneca_01avatar
+    Info_98:
+      Name: mat_cinto_01
+      Dependencies:
+        Dependency_0: t_d_cinto_01
+        Dependency_1: t_n_cinto_01
+        Dependency_2: custom/bumped specular rim
+    Info_99:
+      Name: t_d_cinto_01
+      Dependencies: {}
+    Info_100:
+      Name: t_n_cinto_01
+      Dependencies: {}
+    Info_101:
+      Name: cinto_02_idata
+      Dependencies:
+        Dependency_0: mat_cinto_01
+        Dependency_1: t_d_cinto_01
+        Dependency_2: m_cinto01
+    Info_102:
+      Name: cinto_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: dentes2
+    Info_103:
+      Name: colar_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: colar_01avatar
+    Info_104:
+      Name: mat_carnaval_m_2017
+      Dependencies:
+        Dependency_0: t_d_kit_carnaval_2017_mestre_sala
+        Dependency_1: t_n_kit_carnaval_2017_mestre_sala
+        Dependency_2: custom/bumped specular rim
+    Info_105:
+      Name: t_d_kit_carnaval_2017_mestre_sala
+      Dependencies: {}
+    Info_106:
+      Name: mat_penas_01
+      Dependencies:
+        Dependency_0: t_d_feather_alpha
+        Dependency_1: custom/transparent/backfaceon
+    Info_107:
+      Name: t_d_feather_alpha
+      Dependencies: {}
+    Info_108:
+      Name: confete_fx_particle
+      Dependencies:
+        Dependency_0: whitecircle_material
+    Info_109:
+      Name: t_n_kit_carnaval_2017_mestre_sala
+      Dependencies: {}
+    Info_110:
+      Name: whitecircle_material
+      Dependencies:
+        Dependency_0: t_whitecirclesmall
+        Dependency_1: particles/alpha blended
+    Info_111:
+      Name: t_whitecirclesmall
+      Dependencies: {}
+    Info_112:
+      Name: kit_carnaval_2017_mestre_sala_01
+      Dependencies: {}
+    Info_113:
+      Name: kit_carnaval_m_2017_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_carnaval_m_2017
+        Dependency_2: t_d_kit_carnaval_2017_mestre_sala
+        Dependency_3: mat_penas_01
+        Dependency_4: t_d_feather_alpha
+        Dependency_5: kit_carnaval_exposedcontroller
+        Dependency_6: kit_carnaval_m_2017
+    Info_114:
+      Name: mat_carnaval_f_2017
+      Dependencies:
+        Dependency_0: t_d_kit_carnaval_2017_porta_bandeira
+        Dependency_1: t_n_kit_carnaval_2017_porta_bandeira
+        Dependency_2: custom/bumped specular rim
+    Info_115:
+      Name: t_d_kit_carnaval_2017_porta_bandeira
+      Dependencies: {}
+    Info_116:
+      Name: t_n_kit_carnaval_2017_porta_bandeira
+      Dependencies: {}
+    Info_117:
+      Name: kit_carnaval_2017_porta_bandeira_01
+      Dependencies: {}
+    Info_118:
+      Name: kit_carnaval_f_2017_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_cabelo_f
+        Dependency_2: mat_penas_01
+        Dependency_3: t_d_feather_alpha
+        Dependency_4: mat_carnaval_f_2017
+        Dependency_5: t_d_kit_carnaval_2017_porta_bandeira
+        Dependency_6: kit_carnaval_exposedcontroller
+        Dependency_7: kit_carnaval_f_2017
+    Info_119:
+      Name: mat_chapeu_pascoa
+      Dependencies:
+        Dependency_0: t_n_chapeu_pascoa_01
+        Dependency_1: custom/bumped specular rim
+    Info_120:
+      Name: t_d_chapeu_pascoa_02
+      Dependencies: {}
+    Info_121:
+      Name: t_n_chapeu_pascoa_01
+      Dependencies: {}
+    Info_122:
+      Name: chapeu_pascoa_02_idata
+      Dependencies:
+        Dependency_0: mat_chapeu_pascoa
+        Dependency_1: t_d_chapeu_pascoa_02
+        Dependency_2: coelho_cabeca
+    Info_123:
+      Name: capacete_02_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mesh_capacete_02
+    Info_124:
+      Name: capacete_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mesh_capacete_01
+    Info_125:
+      Name: mat_cabelo_m
+      Dependencies:
+        Dependency_0: t_n_cabelos
+        Dependency_1: custom/bumped specular rim
+    Info_126:
+      Name: t_n_cabelos
+      Dependencies: {}
+    Info_127:
+      Name: chapeu_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mat_cabelo_m
+        Dependency_3: cabelo
+    Info_128:
+      Name: t_d_chapeu_pascoa_01
+      Dependencies: {}
+    Info_129:
+      Name: chapeu_pascoa_01_idata
+      Dependencies:
+        Dependency_0: mat_chapeu_pascoa
+        Dependency_1: t_d_chapeu_pascoa_01
+        Dependency_2: coelho_cabeca
+    Info_130:
+      Name: chapeu_02_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mat_cabelo_m
+        Dependency_3: cabelo
+    Info_131:
+      Name: mat_vestido_comum_01
+      Dependencies:
+        Dependency_0: t_n_vestido_comum01
+        Dependency_1: custom/bumped specular rim
+    Info_132:
+      Name: t_d_vestido_comum01
+      Dependencies: {}
+    Info_133:
+      Name: t_n_vestido_comum01
+      Dependencies: {}
+    Info_134:
+      Name: vestido_comum_01_azul_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_comum_01
+        Dependency_2: t_d_vestido_comum01
+        Dependency_3: corpo
+    Info_135:
+      Name: touca_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mat_cabelo_m
+        Dependency_3: cabelo
+    Info_136:
+      Name: vestido_comum_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_comum_01
+        Dependency_2: corpo
+    Info_137:
+      Name: mat_vestido_gravida
+      Dependencies:
+        Dependency_0: t_n_vestido_gravida_01
+        Dependency_1: custom/bumped specular rim
+    Info_138:
+      Name: t_d_vestido_gravida_01_02
+      Dependencies: {}
+    Info_139:
+      Name: t_n_vestido_gravida_01
+      Dependencies: {}
+    Info_140:
+      Name: vestido_gravida_02_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_02
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_141:
+      Name: t_d_vestido_gravida_01_01
+      Dependencies: {}
+    Info_142:
+      Name: vestido_gravida_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_01
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_143:
+      Name: mat_tennis_esporte_01
+      Dependencies:
+        Dependency_0: t_n_tennis_esporte_01
+        Dependency_1: custom/bumped specular rim
+    Info_144:
+      Name: t_d_tennis_esporte_01
+      Dependencies: {}
+    Info_145:
+      Name: t_n_tennis_esporte_01
+      Dependencies: {}
+    Info_146:
+      Name: tenis_esporte_01_rgb_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_tennis_esporte_01
+        Dependency_2: t_d_tennis_esporte_01
+        Dependency_3: body_parte
+    Info_147:
+      Name: mat_sobrancelhas_01
+      Dependencies:
+        Dependency_0: kit_sobrancelhas01_normals
+    Info_148:
+      Name: kit_sobrancelhas01_normals
+      Dependencies: {}
+    Info_149:
+      Name: sobrancelha_16_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha16
+    Info_150:
+      Name: sobrancelha_15_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha15
+    Info_151:
+      Name: mat_tennis_allstar_01
+      Dependencies:
+        Dependency_0: t_n_tennis_allstar_01
+        Dependency_1: custom/bumped specular rim
+    Info_152:
+      Name: t_n_tennis_allstar_01
+      Dependencies: {}
+    Info_153:
+      Name: tenis_allstar_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_tennis_allstar_01
+        Dependency_2: body_parte
+    Info_154:
+      Name: tenis_esporte_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_tennis_esporte_01
+        Dependency_2: body_parte
+    Info_155:
+      Name: t_d_tennis_allstar_01
+      Dependencies: {}
+    Info_156:
+      Name: tenis_allstar_01_rgb_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_tennis_allstar_01
+        Dependency_2: t_d_tennis_allstar_01
+        Dependency_3: body_parte
+    Info_157:
+      Name: t_d_vestido_gravida_01_03
+      Dependencies: {}
+    Info_158:
+      Name: vestido_gravida_03_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_03
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_159:
+      Name: mat_bestido_longo_01
+      Dependencies:
+        Dependency_0: t_n_vestido_longo01
+        Dependency_1: custom/bumped specular rim
+    Info_160:
+      Name: t_d_vestido_longo01
+      Dependencies: {}
+    Info_161:
+      Name: t_n_vestido_longo01
+      Dependencies: {}
+    Info_162:
+      Name: vestido_longo_01_azul_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bestido_longo_01
+        Dependency_2: t_d_vestido_longo01
+        Dependency_3: corpo
+    Info_163:
+      Name: t_d_vestido_gravida_01_10
+      Dependencies: {}
+    Info_164:
+      Name: vestido_gravida_10_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_10
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_165:
+      Name: vestido_longo_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bestido_longo_01
+        Dependency_2: corpo
+    Info_166:
+      Name: mat_vestido_tomara_01
+      Dependencies:
+        Dependency_0: t_n_vestido_tomara_que_caia01
+        Dependency_1: custom/bumped specular rim
+    Info_167:
+      Name: t_d_vestido_tomara_que_caia01
+      Dependencies: {}
+    Info_168:
+      Name: t_n_vestido_tomara_que_caia01
+      Dependencies: {}
+    Info_169:
+      Name: vestido_tomara_que_caia_01_rgb_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_tomara_01
+        Dependency_2: t_d_vestido_tomara_que_caia01
+        Dependency_3: corpo
+    Info_170:
+      Name: vestido_tomara_que_caia_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_tomara_01
+        Dependency_2: corpo
+    Info_171:
+      Name: t_d_vestido_gravida_01_09
+      Dependencies: {}
+    Info_172:
+      Name: vestido_gravida_09_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_09
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_173:
+      Name: t_d_vestido_gravida_01_05
+      Dependencies: {}
+    Info_174:
+      Name: vestido_gravida_05_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_05
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_175:
+      Name: t_d_vestido_gravida_01_04
+      Dependencies: {}
+    Info_176:
+      Name: vestido_gravida_04_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_04
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_177:
+      Name: t_d_vestido_gravida_01_06
+      Dependencies: {}
+    Info_178:
+      Name: vestido_gravida_06_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_06
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_179:
+      Name: t_d_vestido_gravida_01_08
+      Dependencies: {}
+    Info_180:
+      Name: vestido_gravida_08_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_08
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_181:
+      Name: t_d_vestido_gravida_01_07
+      Dependencies: {}
+    Info_182:
+      Name: vestido_gravida_07_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_vestido_gravida
+        Dependency_2: t_d_vestido_gravida_01_07
+        Dependency_3: vestido_gravida_01_exposedcontroller
+        Dependency_4: corpo
+    Info_183:
+      Name: mat_sapato_01
+      Dependencies:
+        Dependency_0: t_n_sapato_social_01
+        Dependency_1: custom/bumped specular rim
+    Info_184:
+      Name: t_n_sapato_social_01
+      Dependencies: {}
+    Info_185:
+      Name: sapato_social_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sapato_01
+        Dependency_2: body_part
+    Info_186:
+      Name: mat_sapato_salto02
+      Dependencies:
+        Dependency_0: t_n_sapato_salto_02
+        Dependency_1: custom/bumped specular rim
+    Info_187:
+      Name: t_d_sapato_salto02
+      Dependencies: {}
+    Info_188:
+      Name: t_n_sapato_salto_02
+      Dependencies: {}
+    Info_189:
+      Name: sapato_salto_02_rgb_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sapato_salto02
+        Dependency_2: t_d_sapato_salto02
+        Dependency_3: body_part
+    Info_190:
+      Name: t_d_sapato_social_01
+      Dependencies: {}
+    Info_191:
+      Name: sapato_social_01_rgb_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sapato_01
+        Dependency_2: t_d_sapato_social_01
+        Dependency_3: body_part
+    Info_192:
+      Name: sobrancelha_02_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha2
+    Info_193:
+      Name: sobrancelha_01_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha1
+    Info_194:
+      Name: sapato_salto_02_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sapato_salto02
+        Dependency_2: body_part
+    Info_195:
+      Name: mat_sandalha_salto_01
+      Dependencies:
+        Dependency_0: t_n_sandalha_salto01
+        Dependency_1: custom/bumped specular rim
+    Info_196:
+      Name: t_n_sandalha_salto01
+      Dependencies: {}
+    Info_197:
+      Name: sandalha_salto_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sandalha_salto_01
+        Dependency_2: body_part
+    Info_198:
+      Name: t_d_relogio_01_vermelho
+      Dependencies: {}
+    Info_199:
+      Name: relogio_01_vermelho_idata
+      Dependencies:
+        Dependency_0: mat_relogio
+        Dependency_1: t_d_relogio_01_vermelho
+        Dependency_2: relogio
+    Info_200:
+      Name: t_d_sandalha_salto01
+      Dependencies: {}
+    Info_201:
+      Name: sandalha_salto_01_rgb_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sandalha_salto_01
+        Dependency_2: t_d_sandalha_salto01
+        Dependency_3: body_part
+    Info_202:
+      Name: mat_sapato_f_salto_01
+      Dependencies:
+        Dependency_0: t_n_sapato_f_salto_01
+        Dependency_1: custom/bumped specular rim
+    Info_203:
+      Name: t_d_sapato_f_salto_01
+      Dependencies: {}
+    Info_204:
+      Name: t_n_sapato_f_salto_01
+      Dependencies: {}
+    Info_205:
+      Name: sapato_salto_01_rgb_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sapato_f_salto_01
+        Dependency_2: t_d_sapato_f_salto_01
+        Dependency_3: body_part
+    Info_206:
+      Name: sapato_salto_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_sapato_f_salto_01
+        Dependency_2: body_part
+    Info_207:
+      Name: sobrancelha_03_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha3
+    Info_208:
+      Name: sobrancelha_11_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha11
+    Info_209:
+      Name: sobrancelha_10_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha10
+    Info_210:
+      Name: sobrancelha_12_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha12
+    Info_211:
+      Name: sobrancelha_14_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha_14avatar
+    Info_212:
+      Name: sobrancelha_13_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha13
+    Info_213:
+      Name: sobrancelha_09_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha9
+    Info_214:
+      Name: sobrancelha_05_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha5
+    Info_215:
+      Name: sobrancelha_04_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha4
+    Info_216:
+      Name: sobrancelha_06_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha6
+    Info_217:
+      Name: sobrancelha_08_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha8
+    Info_218:
+      Name: sobrancelha_07_idata
+      Dependencies:
+        Dependency_0: mat_sobrancelhas_01
+        Dependency_1: sobrancelha7
+    Info_219:
+      Name: mat_brincos_01
+      Dependencies:
+        Dependency_0: n_kit_inicial_01
+        Dependency_1: custom/bumped specular rim
+    Info_220:
+      Name: brinco_04_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_05
+    Info_221:
+      Name: brinco_03_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_04
+    Info_222:
+      Name: brinco_05_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_06
+    Info_223:
+      Name: brinco_07_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_08
+    Info_224:
+      Name: brinco_06_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_07
+    Info_225:
+      Name: brinco_02_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_03
+    Info_226:
+      Name: mat_bone_02
+      Dependencies:
+        Dependency_0: n_bone_02
+        Dependency_1: custom/bumped specular rim
+    Info_227:
+      Name: t_bone_02_robbyson_02
+      Dependencies: {}
+    Info_228:
+      Name: n_bone_02
+      Dependencies: {}
+    Info_229:
+      Name: bone_02_robbyson02_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mat_cabelo_m
+        Dependency_2: mat_bone_02
+        Dependency_3: t_bone_02_robbyson_02
+        Dependency_4: cabelo
+    Info_230:
+      Name: t_bone_02_robbyson_01
+      Dependencies: {}
+    Info_231:
+      Name: bone_02_robbyson01_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mat_cabelo_m
+        Dependency_2: mat_bone_02
+        Dependency_3: t_bone_02_robbyson_01
+        Dependency_4: cabelo
+    Info_232:
+      Name: mat_botinha01
+      Dependencies:
+        Dependency_0: t_n_botinha01
+        Dependency_1: custom/bumped specular rim
+    Info_233:
+      Name: t_n_botinha01
+      Dependencies: {}
+    Info_234:
+      Name: botinha_01_idata
+      Dependencies:
+        Dependency_0: mat_botinha01
+        Dependency_1: botinha_salto_01
+    Info_235:
+      Name: brinco_01_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_02
+    Info_236:
+      Name: t_d_botinha01
+      Dependencies: {}
+    Info_237:
+      Name: botinha_01_rgb_idata
+      Dependencies:
+        Dependency_0: mat_botinha01
+        Dependency_1: t_d_botinha01
+        Dependency_2: botinha_salto_01
+    Info_238:
+      Name: brinco_08_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_09
+    Info_239:
+      Name: cabelo_f_01_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_moicano_01
+    Info_240:
+      Name: cabeca_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_dentes_fundo_01
+        Dependency_2: dentes2
+    Info_241:
+      Name: cabelo_f_02_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_tranca_lateral_02
+    Info_242:
+      Name: cabelo_f_04_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_rabo_cavalo_04
+    Info_243:
+      Name: cabelo_f_03_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_xuquinha_03
+    Info_244:
+      Name: brinco_14_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_15
+    Info_245:
+      Name: brinco_10_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_11
+    Info_246:
+      Name: brinco_09_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_10
+    Info_247:
+      Name: brinco_11_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_12
+    Info_248:
+      Name: brinco_13_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_14
+    Info_249:
+      Name: brinco_12_idata
+      Dependencies:
+        Dependency_0: mat_brincos_01
+        Dependency_1: mesh_brinco_13
+    Info_250:
+      Name: mat_barba_01
+      Dependencies:
+        Dependency_0: t_n_pelosfaciais_01
+        Dependency_1: custom/bumped specular rim
+    Info_251:
+      Name: t_n_pelosfaciais_01
+      Dependencies: {}
+    Info_252:
+      Name: barba_09_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_09
+    Info_253:
+      Name: barba_08_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_08
+    Info_254:
+      Name: barba_10_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_10
+    Info_255:
+      Name: barba_12_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_12
+    Info_256:
+      Name: barba_11_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: barba_11avatar
+    Info_257:
+      Name: barba_07_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_07
+    Info_258:
+      Name: barba_03_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: barba_03avatar
+    Info_259:
+      Name: barba_02_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_02
+    Info_260:
+      Name: barba_04_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: barba_04avatar
+    Info_261:
+      Name: barba_06_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_06
+    Info_262:
+      Name: barba_05_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_05
+    Info_263:
+      Name: barba_13_idata
+      Dependencies:
+        Dependency_0: mat_barba_01
+        Dependency_1: mesh_facial_13
+    Info_264:
+      Name: mat_bermuda_m_surf
+      Dependencies:
+        Dependency_0: t_d_bermuda_m_surf_01
+        Dependency_1: t_n_bermuda_m_surf
+        Dependency_2: custom/bumped specular rim
+    Info_265:
+      Name: t_d_bermuda_m_surf_01
+      Dependencies: {}
+    Info_266:
+      Name: t_n_bermuda_m_surf
+      Dependencies: {}
+    Info_267:
+      Name: bermuda_m_surf_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_m_surf
+        Dependency_2: t_d_bermuda_m_surf_01
+        Dependency_3: bermuda_m_surf
+    Info_268:
+      Name: mat_bermuda_m_jeans
+      Dependencies:
+        Dependency_0: t_d_bermuda_m_jeans_azul
+        Dependency_1: t_n_bermuda_m_jeans
+        Dependency_2: custom/bumped specular rim
+    Info_269:
+      Name: t_d_bermuda_m_jeans_azul
+      Dependencies: {}
+    Info_270:
+      Name: t_n_bermuda_m_jeans
+      Dependencies: {}
+    Info_271:
+      Name: bermuda_m_jeans_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_m_jeans
+        Dependency_2: t_d_bermuda_m_jeans_azul
+        Dependency_3: corpo
+    Info_272:
+      Name: bone_01_idata
+      Dependencies:
+        Dependency_0: mat_diversos_01
+        Dependency_1: d_kit_inicial_01
+        Dependency_2: mat_cabelo_m
+        Dependency_3: cabelo
+    Info_273:
+      Name: bone_02_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mat_cabelo_m
+        Dependency_2: mat_bone_02
+        Dependency_3: cabelo
+    Info_274:
+      Name: t_bone_02_azul_branco
+      Dependencies: {}
+    Info_275:
+      Name: bone_02_azul_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mat_cabelo_m
+        Dependency_2: mat_bone_02
+        Dependency_3: t_bone_02_azul_branco
+        Dependency_4: cabelo
+    Info_276:
+      Name: mat_bermuda_m_esporte
+      Dependencies:
+        Dependency_0: t_d_bermuda_m_esporte_preto_vermelho
+        Dependency_1: t_n_bermuda_m_esporte
+        Dependency_2: custom/bumped specular rim
+    Info_277:
+      Name: t_d_bermuda_m_esporte_preto_vermelho
+      Dependencies: {}
+    Info_278:
+      Name: t_n_bermuda_m_esporte
+      Dependencies: {}
+    Info_279:
+      Name: bermuda_m_esporte_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_m_esporte
+        Dependency_2: t_d_bermuda_m_esporte_preto_vermelho
+        Dependency_3: corpo
+    Info_280:
+      Name: mat_bermuda_f_jeans
+      Dependencies:
+        Dependency_0: t_d_bermuda_f_jeans_azul
+        Dependency_1: t_n_bermuda_f_jeans
+        Dependency_2: custom/bumped specular rim
+    Info_281:
+      Name: t_d_bermuda_f_jeans_azul
+      Dependencies: {}
+    Info_282:
+      Name: t_n_bermuda_f_jeans
+      Dependencies: {}
+    Info_283:
+      Name: bermuda_f_jeans_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_f_jeans
+        Dependency_2: t_d_bermuda_f_jeans_azul
+        Dependency_3: bermuda_f_jeans
+    Info_284:
+      Name: mat_bermuda_f_esporte
+      Dependencies:
+        Dependency_0: t_d_bermuda_f_esporte_preto_rosa
+        Dependency_1: t_n_bermuda_f_esporte_low
+        Dependency_2: custom/bumped specular rim
+    Info_285:
+      Name: t_d_bermuda_f_esporte_preto_rosa
+      Dependencies: {}
+    Info_286:
+      Name: t_n_bermuda_f_esporte_low
+      Dependencies: {}
+    Info_287:
+      Name: bermuda_f_esporte_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_f_esporte
+        Dependency_2: t_d_bermuda_f_esporte_preto_rosa
+        Dependency_3: bermuda_f_esporteavatar
+    Info_288:
+      Name: mat_bermuda_f_lag
+      Dependencies:
+        Dependency_0: t_d_bermuda_f_lag_rosa
+        Dependency_1: t_n_bermuda_f_lag
+        Dependency_2: custom/bumped specular rim
+    Info_289:
+      Name: t_d_bermuda_f_lag_rosa
+      Dependencies: {}
+    Info_290:
+      Name: t_n_bermuda_f_lag
+      Dependencies: {}
+    Info_291:
+      Name: bermuda_f_lag_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_f_lag
+        Dependency_2: t_d_bermuda_f_lag_rosa
+        Dependency_3: bermuda_f_lagavatar
+    Info_292:
+      Name: mat_bermuda_m_algodao
+      Dependencies:
+        Dependency_0: t_d_bermuda_m_algodao_bege
+        Dependency_1: t_n_bermuda_m_algodao
+        Dependency_2: custom/bumped specular rim
+    Info_293:
+      Name: t_d_bermuda_m_algodao_bege
+      Dependencies: {}
+    Info_294:
+      Name: t_n_bermuda_m_algodao
+      Dependencies: {}
+    Info_295:
+      Name: bermuda_m_algodao_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_m_algodao
+        Dependency_2: t_d_bermuda_m_algodao_bege
+        Dependency_3: corpo
+    Info_296:
+      Name: mat_bermuda_f_shorte_saia
+      Dependencies:
+        Dependency_0: t_d_bermuda_f_short_saia_azul
+        Dependency_1: t_n_bermuda_f_short_saia
+        Dependency_2: custom/bumped specular rim
+    Info_297:
+      Name: t_d_bermuda_f_short_saia_azul
+      Dependencies: {}
+    Info_298:
+      Name: t_n_bermuda_f_short_saia
+      Dependencies: {}
+    Info_299:
+      Name: bermuda_f_shorte_saia_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_bermuda_f_shorte_saia
+        Dependency_2: t_d_bermuda_f_short_saia_azul
+        Dependency_3: corpo
+    Info_300:
+      Name: mat_camisa_curta
+      Dependencies:
+        Dependency_0: t_n_camiseta_m_c
+        Dependency_1: custom/bumped specular rim
+    Info_301:
+      Name: t_d_camiseta_m_c_i_love_rock_01
+      Dependencies: {}
+    Info_302:
+      Name: t_n_camiseta_m_c
+      Dependencies: {}
+    Info_303:
+      Name: camiseta_m_c_i_love_rock_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_i_love_rock_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_304:
+      Name: t_d_camiseta_m_c_i_love_reggae_01
+      Dependencies: {}
+    Info_305:
+      Name: camiseta_m_c_i_love_reggae_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_i_love_reggae_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_306:
+      Name: t_d_camiseta_m_c_i_love_samba_01
+      Dependencies: {}
+    Info_307:
+      Name: camiseta_m_c_i_love_samba_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_i_love_samba_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_308:
+      Name: mat_camisa_curta_polo
+      Dependencies:
+        Dependency_0: t_n_camiseta_m_c_polo
+        Dependency_1: custom/bumped specular rim
+    Info_309:
+      Name: t_d_camiseta_m_c_polo_branco_vermelho
+      Dependencies: {}
+    Info_310:
+      Name: t_n_camiseta_m_c_polo
+      Dependencies: {}
+    Info_311:
+      Name: camiseta_m_c_polo_branco_vermelho_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta_polo
+        Dependency_2: t_d_camiseta_m_c_polo_branco_vermelho
+        Dependency_3: corpo
+    Info_312:
+      Name: t_d_camiseta_m_c_i_love_you_01
+      Dependencies: {}
+    Info_313:
+      Name: camiseta_m_c_i_love_you_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_i_love_you_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_314:
+      Name: t_d_camiseta_m_c_i_love_mymom_preta_01
+      Dependencies: {}
+    Info_315:
+      Name: camiseta_m_c_i_love_mymom_preta_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_i_love_mymom_preta_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_316:
+      Name: t_camiseta_m_c_fut_listra_branco_preto_01
+      Dependencies: {}
+    Info_317:
+      Name: camiseta_m_c_fut_listra_branco_preto_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_camiseta_m_c_fut_listra_branco_preto_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_318:
+      Name: t_camiseta_m_c_fut_azul_branca_01
+      Dependencies: {}
+    Info_319:
+      Name: camiseta_m_c_fut_azul_branco_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_camiseta_m_c_fut_azul_branca_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_320:
+      Name: t_camiseta_m_c_fut_listra_verde_preta_01
+      Dependencies: {}
+    Info_321:
+      Name: camiseta_m_c_fut_listra_verde_preto_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_camiseta_m_c_fut_listra_verde_preta_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_322:
+      Name: t_d_camiseta_m_c_i_love_mymom_branca_01
+      Dependencies: {}
+    Info_323:
+      Name: camiseta_m_c_i_love_mymom_branca_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_i_love_mymom_branca_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_324:
+      Name: t_camiseta_m_c_fut_vermelho_preto_01
+      Dependencies: {}
+    Info_325:
+      Name: camiseta_m_c_fut_vermelho_preto_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_camiseta_m_c_fut_vermelho_preto_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_326:
+      Name: t_d_camiseta_m_c_polo_lilas_branco
+      Dependencies: {}
+    Info_327:
+      Name: camiseta_m_c_polo_lilas_branco_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta_polo
+        Dependency_2: t_d_camiseta_m_c_polo_lilas_branco
+        Dependency_3: corpo
+    Info_328:
+      Name: camiseta_manga_curta_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: m_camiseta_m_c
+        Dependency_3: f_camiseta_m_c
+    Info_329:
+      Name: mat_camisa_longa
+      Dependencies:
+        Dependency_0: t_n_camiseta_m_l
+        Dependency_1: custom/bumped specular rim
+    Info_330:
+      Name: t_d_camiseta_m_l_verde_flor_01
+      Dependencies: {}
+    Info_331:
+      Name: t_n_camiseta_m_l
+      Dependencies: {}
+    Info_332:
+      Name: camiseta_m_l_verde_flor_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_longa
+        Dependency_2: t_d_camiseta_m_l_verde_flor_01
+        Dependency_3: camiseta_f_manga_longa_01avatar
+        Dependency_4: camiseta_m_manga_longa_01avatar
+    Info_333:
+      Name: camiseta_manga_curta_polo_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta_polo
+        Dependency_2: corpo
+    Info_334:
+      Name: camiseta_manga_longa_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_longa
+        Dependency_2: camiseta_f_manga_longa_01avatar
+        Dependency_3: camiseta_m_manga_longa_01avatar
+    Info_335:
+      Name: t_d_camiseta_m_c_polo
+      Dependencies: {}
+    Info_336:
+      Name: camiseta_manga_curta_polo_01_robbyson_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta_polo
+        Dependency_2: t_d_camiseta_m_c_polo
+        Dependency_3: corpo
+    Info_337:
+      Name: t_d_camiseta_m_l_lilas_cat_01
+      Dependencies: {}
+    Info_338:
+      Name: camiseta_m_l_lilas_cat_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_longa
+        Dependency_2: t_d_camiseta_m_l_lilas_cat_01
+        Dependency_3: camiseta_f_manga_longa_01avatar
+        Dependency_4: camiseta_m_manga_longa_01avatar
+    Info_339:
+      Name: t_d_camiseta_m_c_polo_rosa_verde
+      Dependencies: {}
+    Info_340:
+      Name: camiseta_m_c_polo_rosa_verde_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta_polo
+        Dependency_2: t_d_camiseta_m_c_polo_rosa_verde
+        Dependency_3: corpo
+    Info_341:
+      Name: t_d_camiseta_m_c_polo_preto_laranja
+      Dependencies: {}
+    Info_342:
+      Name: camiseta_m_c_polo_preto_laranja_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta_polo
+        Dependency_2: t_d_camiseta_m_c_polo_preto_laranja
+        Dependency_3: corpo
+    Info_343:
+      Name: t_d_camiseta_m_c_polo_top_lider_01
+      Dependencies: {}
+    Info_344:
+      Name: camiseta_m_c_polo_top_lider_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta_polo
+        Dependency_2: t_d_camiseta_m_c_polo_top_lider_01
+        Dependency_3: corpo
+    Info_345:
+      Name: t_d_camiseta_m_l_azul_borboleta_01
+      Dependencies: {}
+    Info_346:
+      Name: camiseta_m_l_azul_borboleta_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_longa
+        Dependency_2: t_d_camiseta_m_l_azul_borboleta_01
+        Dependency_3: camiseta_f_manga_longa_01avatar
+        Dependency_4: camiseta_m_manga_longa_01avatar
+    Info_347:
+      Name: t_d_camiseta_m_l_amarela_dog_01
+      Dependencies: {}
+    Info_348:
+      Name: camiseta_m_l_amarela_dog_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_longa
+        Dependency_2: t_d_camiseta_m_l_amarela_dog_01
+        Dependency_3: camiseta_f_manga_longa_01avatar
+        Dependency_4: camiseta_m_manga_longa_01avatar
+    Info_349:
+      Name: cabelo_m_03_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: mesh_cabelos_03
+    Info_350:
+      Name: cabelo_m_02_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: mesh_cabelos_02
+    Info_351:
+      Name: cabelo_m_04_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: mesh_cabelos_04
+    Info_352:
+      Name: cabelo_m_06_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: mesh_cabelos_06
+    Info_353:
+      Name: cabelo_m_05
+      Dependencies: {}
+    Info_354:
+      Name: cabelo_m_05_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: cabelo_m_05
+    Info_355:
+      Name: cabelo_f_10_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_liso_10
+    Info_356:
+      Name: cabelo_f_06_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_caracolado_06
+    Info_357:
+      Name: cabelo_f_05_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_coque_05
+    Info_358:
+      Name: cabelo_f_07_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_liso_franja_07
+    Info_359:
+      Name: cabelo_f_09_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_liso_09
+    Info_360:
+      Name: cabelo_f_08_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mesh_liso_08
+    Info_361:
+      Name: cabelo_m_07_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: mesh_cabelos_07
+    Info_362:
+      Name: mat_calca_skatista
+      Dependencies:
+        Dependency_0: t_n_calca_skatista
+        Dependency_1: custom/bumped specular rim
+    Info_363:
+      Name: t_n_calca_skatista
+      Dependencies: {}
+    Info_364:
+      Name: calca_skatista_01_idata
+      Dependencies:
+        Dependency_0: mat_calca_skatista
+        Dependency_1: calca_f_skatista_01avatar
+        Dependency_2: calca_m_skatista_01avatar
+    Info_365:
+      Name: mat_calca_normal
+      Dependencies:
+        Dependency_0: t_n_calca_01
+        Dependency_1: custom/bumped specular rim
+    Info_366:
+      Name: t_d_calca_01_djeans_azul
+      Dependencies: {}
+    Info_367:
+      Name: t_n_calca_01
+      Dependencies: {}
+    Info_368:
+      Name: calca_normal_01_jeans_idata
+      Dependencies:
+        Dependency_0: mat_calca_normal
+        Dependency_1: t_d_calca_01_djeans_azul
+        Dependency_2: m_calca_01
+        Dependency_3: f_calca_normal
+    Info_369:
+      Name: t_camiseta_m_c_azul_vermelho_01
+      Dependencies: {}
+    Info_370:
+      Name: camiseta_m_c_azul_vermelho_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_camiseta_m_c_azul_vermelho_01
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_371:
+      Name: t_d_camiseta_m_c_carnaval_2017_branca
+      Dependencies: {}
+    Info_372:
+      Name: camiseta_m_c_carnaval_2017_branca_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_carnaval_2017_branca
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_373:
+      Name: t_d_camiseta_m_c_carnaval_2017_azul
+      Dependencies: {}
+    Info_374:
+      Name: camiseta_m_c_carnaval_2017_azul_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: mat_camisa_curta
+        Dependency_2: t_d_camiseta_m_c_carnaval_2017_azul
+        Dependency_3: m_camiseta_m_c
+        Dependency_4: f_camiseta_m_c
+    Info_375:
+      Name: calca_normal_01_idata
+      Dependencies:
+        Dependency_0: mat_calca_normal
+        Dependency_1: m_calca_01
+        Dependency_2: f_calca_normal
+    Info_376:
+      Name: cabelo_m_09_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: mesh_cabelos_09
+    Info_377:
+      Name: cabelo_m_08_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_m
+        Dependency_1: mesh_cabelos_08
+    Info_378:
+      Name: mat_calca_comum
+      Dependencies:
+        Dependency_0: t_n_calca_comum
+        Dependency_1: custom/bumped specular rim
+    Info_379:
+      Name: t_n_calca_comum
+      Dependencies: {}
+    Info_380:
+      Name: calca_comum_01_idata
+      Dependencies:
+        Dependency_0: mat_calca_comum
+        Dependency_1: f_calca_comum
+        Dependency_2: m_calca_comum
+    Info_381:
+      Name: t_d_calca_01_couro_marron
+      Dependencies: {}
+    Info_382:
+      Name: calca_normal_01_couro_idata
+      Dependencies:
+        Dependency_0: mat_calca_normal
+        Dependency_1: t_d_calca_01_couro_marron
+        Dependency_2: m_calca_01
+        Dependency_3: f_calca_normal
+    Info_383:
+      Name: mat_calca_slim
+      Dependencies:
+        Dependency_0: t_n_calca_slim
+        Dependency_1: custom/bumped specular rim
+    Info_384:
+      Name: t_n_calca_slim
+      Dependencies: {}
+    Info_385:
+      Name: calca_lag_01_idata
+      Dependencies:
+        Dependency_0: mat_calca_slim
+        Dependency_1: m_calca_slim
+        Dependency_2: f_calca_lag
+    Info_386:
+      Name: human_f_characterbody_tips
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: mat_dentes_frente_01
+        Dependency_2: human_exposedcontroller
+        Dependency_3: esqueletoavatar
+    Info_387:
+      Name: mat_dentes_frente_01
+      Dependencies: {}
+    Info_388:
+      Name: human_f_tips_bdata
+      Dependencies:
+        Dependency_0: human_f_characterbody_tips
+    Info_389:
+      Name: human_f_characterbody
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: mat_dentes_frente_01
+        Dependency_2: human_exposedcontroller
+        Dependency_3: esqueletoavatar
+    Info_390:
+      Name: human_f_bdata
+      Dependencies:
+        Dependency_0: human_f_characterbody
+    Info_391:
+      Name: human_m_characterbody
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: mat_dentes_frente_01
+        Dependency_2: human_exposedcontroller
+        Dependency_3: esqueletoavatar
+    Info_392:
+      Name: human_m_bdata
+      Dependencies:
+        Dependency_0: human_m_characterbody
+    Info_393:
+      Name: human_m_characterbody_tips
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: mat_dentes_frente_01
+        Dependency_2: human_exposedcontroller
+        Dependency_3: esqueletoavatar
+    Info_394:
+      Name: human_m_tips_bdata
+      Dependencies:
+        Dependency_0: human_m_characterbody_tips
+    Info_395:
+      Name: placa_deumadica_exposedcontroller
+      Dependencies:
+        Dependency_0: placa_deumadica_mainiddle
+        Dependency_1: placa_deumadica_instart
+        Dependency_2: placa_deumadica_outend
+        Dependency_3: placa_deumadica_iddle
+        Dependency_4: placa_deumadica_out
+        Dependency_5: placa_deumadica_in
+        Dependency_6: placa_deumadica_controller
+    Info_396:
+      Name: kit_kimono_exposedcontroller
+      Dependencies:
+        Dependency_0: idlekimono
+        Dependency_1: idle
+        Dependency_2: out
+        Dependency_3: in
+        Dependency_4: hatswap
+        Dependency_5: legsswap
+        Dependency_6: hairswap
+        Dependency_7: torsoswap
+        Dependency_8: glassswap
+        Dependency_9: glovesswap
+        Dependency_10: footswap
+        Dependency_11: eyebrowswap
+        Dependency_12: in_left
+        Dependency_13: out_left
+        Dependency_14: idle_deumadica
+        Dependency_15: deumadica_out
+        Dependency_16: deumadica_in
+        Dependency_17: idle_recomendacao_01
+        Dependency_18: happy01
+        Dependency_19: happy02
+        Dependency_20: happy03
+        Dependency_21: sad01
+        Dependency_22: sad02
+        Dependency_23: sad03
+        Dependency_24: normal01
+        Dependency_25: normal02
+        Dependency_26: normal03
+        Dependency_27: idle_olhasonotificando_01
+        Dependency_28: idle_olhasoorientando_01
+        Dependency_29: idle_olasoparabenizando_01
+        Dependency_30: kit_kimono_controller
+    Info_397:
+      Name: vestido_gravida_01_exposedcontroller
+      Dependencies:
+        Dependency_0: idle
+        Dependency_1: out
+        Dependency_2: in
+        Dependency_3: hatswap
+        Dependency_4: legsswap
+        Dependency_5: hairswap
+        Dependency_6: torsoswap
+        Dependency_7: glassswap
+        Dependency_8: glovesswap
+        Dependency_9: footswap
+        Dependency_10: eyebrowswap
+        Dependency_11: in_left
+        Dependency_12: out_left
+        Dependency_13: idle_deumadica
+        Dependency_14: deumadica_out
+        Dependency_15: deumadica_in
+        Dependency_16: idle_recomendacao_01
+        Dependency_17: happy01
+        Dependency_18: happy02
+        Dependency_19: happy03
+        Dependency_20: sad01
+        Dependency_21: sad02
+        Dependency_22: sad03
+        Dependency_23: normal01
+        Dependency_24: normal02
+        Dependency_25: normal03
+        Dependency_26: idle_olhasonotificando_01
+        Dependency_27: idle_olhasoorientando_01
+        Dependency_28: idle_olasoparabenizando_01
+        Dependency_29: idlegravida
+        Dependency_30: vestido_gravida_01_controller
+    Info_398:
+      Name: kit_carnaval_exposedcontroller
+      Dependencies:
+        Dependency_0: idle
+        Dependency_1: out
+        Dependency_2: in
+        Dependency_3: hatswap
+        Dependency_4: legsswap
+        Dependency_5: hairswap
+        Dependency_6: torsoswap
+        Dependency_7: glassswap
+        Dependency_8: glovesswap
+        Dependency_9: footswap
+        Dependency_10: eyebrowswap
+        Dependency_11: in_left
+        Dependency_12: out_left
+        Dependency_13: idle_deumadica
+        Dependency_14: deumadica_out
+        Dependency_15: deumadica_in
+        Dependency_16: idle_recomendacao_01
+        Dependency_17: happy01
+        Dependency_18: happy02
+        Dependency_19: happy03
+        Dependency_20: sad01
+        Dependency_21: sad02
+        Dependency_22: sad03
+        Dependency_23: normal01
+        Dependency_24: normal02
+        Dependency_25: normal03
+        Dependency_26: idle_olhasonotificando_01
+        Dependency_27: idle_olhasoorientando_01
+        Dependency_28: idle_olasoparabenizando_01
+        Dependency_29: idlecarnaval
+        Dependency_30: kit_carnaval_controller
+    Info_399:
+      Name: human_exposedcontroller
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: idle
+        Dependency_2: out
+        Dependency_3: in
+        Dependency_4: hatswap
+        Dependency_5: legsswap
+        Dependency_6: hairswap
+        Dependency_7: torsoswap
+        Dependency_8: glassswap
+        Dependency_9: glovesswap
+        Dependency_10: footswap
+        Dependency_11: eyebrowswap
+        Dependency_12: in_left
+        Dependency_13: out_left
+        Dependency_14: idle_deumadica
+        Dependency_15: deumadica_out
+        Dependency_16: deumadica_in
+        Dependency_17: idle_recomendacao_01
+        Dependency_18: happy01
+        Dependency_19: happy02
+        Dependency_20: happy03
+        Dependency_21: sad01
+        Dependency_22: sad02
+        Dependency_23: sad03
+        Dependency_24: normal01
+        Dependency_25: normal02
+        Dependency_26: normal03
+        Dependency_27: idle_olhasonotificando_01
+        Dependency_28: idle_olhasoorientando_01
+        Dependency_29: idle_olasoparabenizando_01
+    Info_400:
+      Name: mesh_capacete_02
+      Dependencies: {}
+    Info_401:
+      Name: mesh_capacete_01
+      Dependencies: {}
+    Info_402:
+      Name: cabelo
+      Dependencies: {}
+    Info_403:
+      Name: coelho_cabeca
+      Dependencies: {}
+    Info_404:
+      Name: kit_terno_masculinoavatar
+      Dependencies: {}
+    Info_405:
+      Name: kit_terno_femininoavatar
+      Dependencies: {}
+    Info_406:
+      Name: kit_natal_masculino_01avatar
+      Dependencies: {}
+    Info_407:
+      Name: kit_natal_feminino_01avatar
+      Dependencies: {}
+    Info_408:
+      Name: placa_deumadica_iddle
+      Dependencies: {}
+    Info_409:
+      Name: placa_deumadica_out
+      Dependencies: {}
+    Info_410:
+      Name: placa_deumadica_in
+      Dependencies: {}
+    Info_411:
+      Name: mesh_lente_06
+      Dependencies: {}
+    Info_412:
+      Name: idlekimono
+      Dependencies: {}
+    Info_413:
+      Name: idle
+      Dependencies: {}
+    Info_414:
+      Name: out
+      Dependencies: {}
+    Info_415:
+      Name: in
+      Dependencies: {}
+    Info_416:
+      Name: hatswap
+      Dependencies: {}
+    Info_417:
+      Name: legsswap
+      Dependencies: {}
+    Info_418:
+      Name: hairswap
+      Dependencies: {}
+    Info_419:
+      Name: torsoswap
+      Dependencies: {}
+    Info_420:
+      Name: glassswap
+      Dependencies: {}
+    Info_421:
+      Name: glovesswap
+      Dependencies: {}
+    Info_422:
+      Name: footswap
+      Dependencies: {}
+    Info_423:
+      Name: eyebrowswap
+      Dependencies: {}
+    Info_424:
+      Name: in_left
+      Dependencies: {}
+    Info_425:
+      Name: out_left
+      Dependencies: {}
+    Info_426:
+      Name: idle_deumadica
+      Dependencies: {}
+    Info_427:
+      Name: deumadica_out
+      Dependencies: {}
+    Info_428:
+      Name: deumadica_in
+      Dependencies: {}
+    Info_429:
+      Name: idle_recomendacao_01
+      Dependencies: {}
+    Info_430:
+      Name: happy01
+      Dependencies: {}
+    Info_431:
+      Name: happy02
+      Dependencies: {}
+    Info_432:
+      Name: happy03
+      Dependencies: {}
+    Info_433:
+      Name: sad01
+      Dependencies: {}
+    Info_434:
+      Name: sad02
+      Dependencies: {}
+    Info_435:
+      Name: sad03
+      Dependencies: {}
+    Info_436:
+      Name: normal01
+      Dependencies: {}
+    Info_437:
+      Name: normal02
+      Dependencies: {}
+    Info_438:
+      Name: normal03
+      Dependencies: {}
+    Info_439:
+      Name: idle_olhasonotificando_01
+      Dependencies: {}
+    Info_440:
+      Name: idle_olhasoorientando_01
+      Dependencies: {}
+    Info_441:
+      Name: idle_olasoparabenizando_01
+      Dependencies: {}
+    Info_442:
+      Name: kit_kimono_01avatar
+      Dependencies: {}
+    Info_443:
+      Name: idlegravida
+      Dependencies: {}
+    Info_444:
+      Name: idlecarnaval
+      Dependencies: {}
+    Info_445:
+      Name: barba_03avatar
+      Dependencies: {}
+    Info_446:
+      Name: mesh_cabelos_08
+      Dependencies: {}
+    Info_447:
+      Name: mesh_cabelos_07
+      Dependencies: {}
+    Info_448:
+      Name: mesh_cabelos_09
+      Dependencies: {}
+    Info_449:
+      Name: mesh_cabelos_06
+      Dependencies: {}
+    Info_450:
+      Name: mesh_cabelos_02
+      Dependencies: {}
+    Info_451:
+      Name: mesh_liso_10
+      Dependencies: {}
+    Info_452:
+      Name: mesh_cabelos_03
+      Dependencies: {}
+    Info_453:
+      Name: mesh_cabelos_04
+      Dependencies: {}
+    Info_454:
+      Name: calca_f_skatista_01avatar
+      Dependencies: {}
+    Info_455:
+      Name: calca_m_skatista_01avatar
+      Dependencies: {}
+    Info_456:
+      Name: mesh_liso_09
+      Dependencies: {}
+    Info_457:
+      Name: mesh_brinco_09
+      Dependencies: {}
+    Info_458:
+      Name: mesh_brinco_08
+      Dependencies: {}
+    Info_459:
+      Name: mesh_brinco_10
+      Dependencies: {}
+    Info_460:
+      Name: mesh_brinco_12
+      Dependencies: {}
+    Info_461:
+      Name: mesh_brinco_11
+      Dependencies: {}
+    Info_462:
+      Name: mesh_brinco_07
+      Dependencies: {}
+    Info_463:
+      Name: mesh_brinco_03
+      Dependencies: {}
+    Info_464:
+      Name: mesh_brinco_02
+      Dependencies: {}
+    Info_465:
+      Name: mesh_brinco_04
+      Dependencies: {}
+    Info_466:
+      Name: mesh_brinco_06
+      Dependencies: {}
+    Info_467:
+      Name: mesh_brinco_05
+      Dependencies: {}
+    Info_468:
+      Name: mesh_brinco_13
+      Dependencies: {}
+    Info_469:
+      Name: mesh_coque_05
+      Dependencies: {}
+    Info_470:
+      Name: mesh_rabo_cavalo_04
+      Dependencies: {}
+    Info_471:
+      Name: mesh_caracolado_06
+      Dependencies: {}
+    Info_472:
+      Name: mesh_liso_08
+      Dependencies: {}
+    Info_473:
+      Name: mesh_liso_franja_07
+      Dependencies: {}
+    Info_474:
+      Name: mesh_xuquinha_03
+      Dependencies: {}
+    Info_475:
+      Name: mesh_brinco_15
+      Dependencies: {}
+    Info_476:
+      Name: mesh_brinco_14
+      Dependencies: {}
+    Info_477:
+      Name: mesh_tranca_lateral_02
+      Dependencies: {}
+    Info_478:
+      Name: mesh_moicano_01
+      Dependencies: {}
+    Info_479:
+      Name: placa_deumadica_controller
+      Dependencies:
+        Dependency_0: placa_deumadica_mainiddle
+        Dependency_1: placa_deumadica_instart
+        Dependency_2: placa_deumadica_outend
+        Dependency_3: placa_deumadica_iddle
+        Dependency_4: placa_deumadica_out
+        Dependency_5: placa_deumadica_in
+        Dependency_6: deumadica_in
+    Info_480:
+      Name: kit_kimono_controller
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: idlekimono
+        Dependency_2: idle
+        Dependency_3: out
+        Dependency_4: in
+        Dependency_5: hatswap
+        Dependency_6: legsswap
+        Dependency_7: hairswap
+        Dependency_8: torsoswap
+        Dependency_9: glassswap
+        Dependency_10: glovesswap
+        Dependency_11: footswap
+        Dependency_12: eyebrowswap
+        Dependency_13: in_left
+        Dependency_14: out_left
+        Dependency_15: idle_deumadica
+        Dependency_16: deumadica_out
+        Dependency_17: deumadica_in
+        Dependency_18: idle_recomendacao_01
+        Dependency_19: happy01
+        Dependency_20: happy02
+        Dependency_21: happy03
+        Dependency_22: sad01
+        Dependency_23: sad02
+        Dependency_24: sad03
+        Dependency_25: normal01
+        Dependency_26: normal02
+        Dependency_27: normal03
+        Dependency_28: idle_olhasonotificando_01
+        Dependency_29: idle_olhasoorientando_01
+        Dependency_30: idle_olasoparabenizando_01
+    Info_481:
+      Name: vestido_gravida_01_controller
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: idle
+        Dependency_2: out
+        Dependency_3: in
+        Dependency_4: hatswap
+        Dependency_5: legsswap
+        Dependency_6: hairswap
+        Dependency_7: torsoswap
+        Dependency_8: glassswap
+        Dependency_9: glovesswap
+        Dependency_10: footswap
+        Dependency_11: eyebrowswap
+        Dependency_12: in_left
+        Dependency_13: out_left
+        Dependency_14: idle_deumadica
+        Dependency_15: deumadica_out
+        Dependency_16: deumadica_in
+        Dependency_17: idle_recomendacao_01
+        Dependency_18: happy01
+        Dependency_19: happy02
+        Dependency_20: happy03
+        Dependency_21: sad01
+        Dependency_22: sad02
+        Dependency_23: sad03
+        Dependency_24: normal01
+        Dependency_25: normal02
+        Dependency_26: normal03
+        Dependency_27: idle_olhasonotificando_01
+        Dependency_28: idle_olhasoorientando_01
+        Dependency_29: idle_olasoparabenizando_01
+        Dependency_30: idlegravida
+    Info_482:
+      Name: kit_carnaval_controller
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: idle
+        Dependency_2: out
+        Dependency_3: in
+        Dependency_4: hatswap
+        Dependency_5: legsswap
+        Dependency_6: hairswap
+        Dependency_7: torsoswap
+        Dependency_8: glassswap
+        Dependency_9: glovesswap
+        Dependency_10: footswap
+        Dependency_11: eyebrowswap
+        Dependency_12: in_left
+        Dependency_13: out_left
+        Dependency_14: idle_deumadica
+        Dependency_15: deumadica_out
+        Dependency_16: deumadica_in
+        Dependency_17: idle_recomendacao_01
+        Dependency_18: happy01
+        Dependency_19: happy02
+        Dependency_20: happy03
+        Dependency_21: sad01
+        Dependency_22: sad02
+        Dependency_23: sad03
+        Dependency_24: normal01
+        Dependency_25: normal02
+        Dependency_26: normal03
+        Dependency_27: idle_olhasonotificando_01
+        Dependency_28: idle_olhasoorientando_01
+        Dependency_29: idle_olasoparabenizando_01
+        Dependency_30: idlecarnaval
+    Info_483:
+      Name: corpo
+      Dependencies: {}
+    Info_484:
+      Name: body_part
+      Dependencies: {}
+    Info_485:
+      Name: dentes2
+      Dependencies: {}
+    Info_486:
+      Name: body_parte
+      Dependencies: {}
+    Info_487:
+      Name: relogio
+      Dependencies: {}
+    Info_488:
+      Name: am_mesh_eyes
+      Dependencies: {}
+    Info_489:
+      Name: sobrancelha1
+      Dependencies: {}
+    Info_490:
+      Name: m_calca_slim
+      Dependencies: {}
+    Info_491:
+      Name: f_calca_comum
+      Dependencies: {}
+    Info_492:
+      Name: m_calca_comum
+      Dependencies: {}
+    Info_493:
+      Name: m_calca_01
+      Dependencies: {}
+    Info_494:
+      Name: custom/bumped specular rim
+      Dependencies: {}
+    Info_495:
+      Name: m_cinto01
+      Dependencies: {}
+    Info_496:
+      Name: t_n_chapeu_palha_01
+      Dependencies: {}
+    Info_497:
+      Name: t_d_chapeu_palha_red_01
+      Dependencies: {}
+    Info_498:
+      Name: mat_chapeu_palha
+      Dependencies:
+        Dependency_0: t_n_chapeu_palha_01
+        Dependency_1: custom/transparent/backfaceon
+    Info_499:
+      Name: custom/transparent/backfaceon
+      Dependencies: {}
+    Info_500:
+      Name: chapeu_junino_01_vermelho_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mat_cabelo_m
+        Dependency_2: cabelo
+        Dependency_3: t_d_chapeu_palha_red_01
+        Dependency_4: mat_chapeu_palha
+    Info_501:
+      Name: t_d_chapeu_palha_pink_01
+      Dependencies: {}
+    Info_502:
+      Name: chapeu_junino_01_rosa_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mat_cabelo_m
+        Dependency_2: cabelo
+        Dependency_3: mat_chapeu_palha
+        Dependency_4: t_d_chapeu_palha_pink_01
+    Info_503:
+      Name: t_d_chapeu_palha_blue_01
+      Dependencies: {}
+    Info_504:
+      Name: chapeu_junino_01_azul_idata
+      Dependencies:
+        Dependency_0: mat_cabelo_f
+        Dependency_1: mat_cabelo_m
+        Dependency_2: cabelo
+        Dependency_3: mat_chapeu_palha
+        Dependency_4: t_d_chapeu_palha_blue_01
+    Info_505:
+      Name: sobrancelha10
+      Dependencies: {}
+    Info_506:
+      Name: sobrancelha9
+      Dependencies: {}
+    Info_507:
+      Name: sobrancelha8
+      Dependencies: {}
+    Info_508:
+      Name: sobrancelha4
+      Dependencies: {}
+    Info_509:
+      Name: sobrancelha3
+      Dependencies: {}
+    Info_510:
+      Name: sobrancelha2
+      Dependencies: {}
+    Info_511:
+      Name: sobrancelha7
+      Dependencies: {}
+    Info_512:
+      Name: sobrancelha6
+      Dependencies: {}
+    Info_513:
+      Name: sobrancelha5
+      Dependencies: {}
+    Info_514:
+      Name: custom/transparent/diffuse
+      Dependencies: {}
+    Info_515:
+      Name: mesh_bracelete_01
+      Dependencies: {}
+    Info_516:
+      Name: mesh_oculos_04
+      Dependencies: {}
+    Info_517:
+      Name: mesh_luva_02
+      Dependencies: {}
+    Info_518:
+      Name: mesh_luva_01
+      Dependencies: {}
+    Info_519:
+      Name: mesh_oculos_01
+      Dependencies: {}
+    Info_520:
+      Name: t_d_vestido_f_junino_01_06
+      Dependencies: {}
+    Info_521:
+      Name: kit_junino_controller
+      Dependencies:
+        Dependency_0: human_controller
+        Dependency_1: idle
+        Dependency_2: out
+        Dependency_3: in
+        Dependency_4: hatswap
+        Dependency_5: legsswap
+        Dependency_6: hairswap
+        Dependency_7: torsoswap
+        Dependency_8: glassswap
+        Dependency_9: glovesswap
+        Dependency_10: footswap
+        Dependency_11: eyebrowswap
+        Dependency_12: in_left
+        Dependency_13: out_left
+        Dependency_14: idle_deumadica
+        Dependency_15: deumadica_out
+        Dependency_16: deumadica_in
+        Dependency_17: idle_recomendacao_01
+        Dependency_18: happy01
+        Dependency_19: happy02
+        Dependency_20: happy03
+        Dependency_21: sad01
+        Dependency_22: sad02
+        Dependency_23: sad03
+        Dependency_24: normal01
+        Dependency_25: normal02
+        Dependency_26: normal03
+        Dependency_27: idle_olhasonotificando_01
+        Dependency_28: idle_olhasoorientando_01
+        Dependency_29: idle_olasoparabenizando_01
+        Dependency_30: idlejunino
+    Info_522:
+      Name: idlejunino
+      Dependencies: {}
+    Info_523:
+      Name: kit_junino_exposedcontroller
+      Dependencies:
+        Dependency_0: idle
+        Dependency_1: out
+        Dependency_2: in
+        Dependency_3: hatswap
+        Dependency_4: legsswap
+        Dependency_5: hairswap
+        Dependency_6: torsoswap
+        Dependency_7: glassswap
+        Dependency_8: glovesswap
+        Dependency_9: footswap
+        Dependency_10: eyebrowswap
+        Dependency_11: in_left
+        Dependency_12: out_left
+        Dependency_13: idle_deumadica
+        Dependency_14: deumadica_out
+        Dependency_15: deumadica_in
+        Dependency_16: idle_recomendacao_01
+        Dependency_17: happy01
+        Dependency_18: happy02
+        Dependency_19: happy03
+        Dependency_20: sad01
+        Dependency_21: sad02
+        Dependency_22: sad03
+        Dependency_23: normal01
+        Dependency_24: normal02
+        Dependency_25: normal03
+        Dependency_26: idle_olhasonotificando_01
+        Dependency_27: idle_olhasoorientando_01
+        Dependency_28: idle_olasoparabenizando_01
+        Dependency_29: kit_junino_controller
+        Dependency_30: idlejunino
+    Info_524:
+      Name: mat_vestido_junino
+      Dependencies:
+        Dependency_0: custom/bumped specular rim
+        Dependency_1: t_n_vestido_f_junino_01
+    Info_525:
+      Name: t_n_vestido_f_junino_01
+      Dependencies: {}
+    Info_526:
+      Name: vestido_junino_06_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: t_d_vestido_f_junino_01_06
+        Dependency_3: kit_junino_exposedcontroller
+        Dependency_4: mat_vestido_junino
+    Info_527:
+      Name: t_d_vestido_f_junino_01_05
+      Dependencies: {}
+    Info_528:
+      Name: vestido_junino_05_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_05
+    Info_529:
+      Name: t_d_vestido_f_junino_01_04
+      Dependencies: {}
+    Info_530:
+      Name: vestido_junino_04_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_04
+    Info_531:
+      Name: t_d_vestido_f_junino_01_09
+      Dependencies: {}
+    Info_532:
+      Name: vestido_junino_09_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_09
+    Info_533:
+      Name: t_d_vestido_f_junino_01_08
+      Dependencies: {}
+    Info_534:
+      Name: vestido_junino_08_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_08
+    Info_535:
+      Name: t_d_vestido_f_junino_01_07
+      Dependencies: {}
+    Info_536:
+      Name: vestido_junino_07_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_07
+    Info_537:
+      Name: t_d_vestido_f_junino_01_03
+      Dependencies: {}
+    Info_538:
+      Name: vestido_junino_03_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_03
+    Info_539:
+      Name: t_d_vestido_f_junino_01_02
+      Dependencies: {}
+    Info_540:
+      Name: vestido_junino_02_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_02
+    Info_541:
+      Name: t_d_vestido_f_junino_01_01
+      Dependencies: {}
+    Info_542:
+      Name: vestido_junino_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_vestido_junino
+        Dependency_4: t_d_vestido_f_junino_01_01
+    Info_543:
+      Name: mesh_facial_10
+      Dependencies: {}
+    Info_544:
+      Name: mesh_facial_12
+      Dependencies: {}
+    Info_545:
+      Name: mesh_facial_07
+      Dependencies: {}
+    Info_546:
+      Name: mesh_facial_06
+      Dependencies: {}
+    Info_547:
+      Name: mesh_facial_05
+      Dependencies: {}
+    Info_548:
+      Name: t_n_kit_junino_camiseta_01
+      Dependencies: {}
+    Info_549:
+      Name: mat_camiseta_botao
+      Dependencies:
+        Dependency_0: custom/bumped specular rim
+        Dependency_1: t_n_kit_junino_camiseta_01
+    Info_550:
+      Name: t_d_kit_junino_camiseta_01_01
+      Dependencies: {}
+    Info_551:
+      Name: camiseta_junina_01_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_camiseta_botao
+        Dependency_4: t_d_kit_junino_camiseta_01_01
+    Info_552:
+      Name: t_n_kit_junino_calca_01
+      Dependencies: {}
+    Info_553:
+      Name: calca
+      Dependencies: {}
+    Info_554:
+      Name: t_d_kit_junino_calca_01_05
+      Dependencies: {}
+    Info_555:
+      Name: mat_calca_junina
+      Dependencies:
+        Dependency_0: custom/bumped specular rim
+        Dependency_1: t_n_kit_junino_calca_01
+    Info_556:
+      Name: calca_junina_05_idata
+      Dependencies:
+        Dependency_0: kit_junino_exposedcontroller
+        Dependency_1: calca
+        Dependency_2: t_d_kit_junino_calca_01_05
+        Dependency_3: mat_calca_junina
+    Info_557:
+      Name: t_d_kit_junino_calca_01_04
+      Dependencies: {}
+    Info_558:
+      Name: calca_junina_04_idata
+      Dependencies:
+        Dependency_0: kit_junino_exposedcontroller
+        Dependency_1: calca
+        Dependency_2: mat_calca_junina
+        Dependency_3: t_d_kit_junino_calca_01_04
+    Info_559:
+      Name: t_d_kit_junino_camiseta_01_04
+      Dependencies: {}
+    Info_560:
+      Name: camiseta_junina_04_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_camiseta_botao
+        Dependency_4: t_d_kit_junino_camiseta_01_04
+    Info_561:
+      Name: t_d_kit_junino_camiseta_01_03
+      Dependencies: {}
+    Info_562:
+      Name: camiseta_junina_03_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_camiseta_botao
+        Dependency_4: t_d_kit_junino_camiseta_01_03
+    Info_563:
+      Name: t_d_kit_junino_camiseta_01_02
+      Dependencies: {}
+    Info_564:
+      Name: camiseta_junina_02_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_camiseta_botao
+        Dependency_4: t_d_kit_junino_camiseta_01_02
+    Info_565:
+      Name: t_d_kit_junino_calca_01_03
+      Dependencies: {}
+    Info_566:
+      Name: calca_junina_03_idata
+      Dependencies:
+        Dependency_0: kit_junino_exposedcontroller
+        Dependency_1: calca
+        Dependency_2: mat_calca_junina
+        Dependency_3: t_d_kit_junino_calca_01_03
+    Info_567:
+      Name: esqueletoavatar
+      Dependencies: {}
+    Info_568:
+      Name: t_d_kit_junino_calca_01_02
+      Dependencies: {}
+    Info_569:
+      Name: calca_junina_02_idata
+      Dependencies:
+        Dependency_0: kit_junino_exposedcontroller
+        Dependency_1: calca
+        Dependency_2: mat_calca_junina
+        Dependency_3: t_d_kit_junino_calca_01_02
+    Info_570:
+      Name: t_d_kit_junino_calca_01_01
+      Dependencies: {}
+    Info_571:
+      Name: calca_junina_01_idata
+      Dependencies:
+        Dependency_0: kit_junino_exposedcontroller
+        Dependency_1: calca
+        Dependency_2: mat_calca_junina
+        Dependency_3: t_d_kit_junino_calca_01_01
+    Info_572:
+      Name: particles/alpha blended
+      Dependencies: {}
+    Info_573:
+      Name: t_d_kit_junino_camiseta_01_05
+      Dependencies: {}
+    Info_574:
+      Name: camiseta_junina_05_idata
+      Dependencies:
+        Dependency_0: mat_corpo_01
+        Dependency_1: corpo
+        Dependency_2: kit_junino_exposedcontroller
+        Dependency_3: mat_camiseta_botao
+        Dependency_4: t_d_kit_junino_camiseta_01_05
+    Info_575:
+      Name: botinha_salto_01
+      Dependencies: {}
+    Info_576:
+      Name: caneca_01avatar
+      Dependencies: {}
+    Info_577:
+      Name: colar_01avatar
+      Dependencies: {}
+    Info_578:
+      Name: m_camiseta_m_c
+      Dependencies: {}
+    Info_579:
+      Name: f_camiseta_m_c
+      Dependencies: {}
+    Info_580:
+      Name: camiseta_f_manga_longa_01avatar
+      Dependencies: {}
+    Info_581:
+      Name: camiseta_m_manga_longa_01avatar
+      Dependencies: {}
+    Info_582:
+      Name: sobrancelha11
+      Dependencies: {}
+    Info_583:
+      Name: sobrancelha_14avatar
+      Dependencies: {}
+    Info_584:
+      Name: sobrancelha13
+      Dependencies: {}
+    Info_585:
+      Name: sobrancelha12
+      Dependencies: {}
+    Info_586:
+      Name: sobrancelha16
+      Dependencies: {}
+    Info_587:
+      Name: sobrancelha15
+      Dependencies: {}
+    Info_588:
+      Name: mesh_oculos_05
+      Dependencies: {}
+    Info_589:
+      Name: mesh_lente_03
+      Dependencies: {}
+    Info_590:
+      Name: mesh_lente_02
+      Dependencies: {}
+    Info_591:
+      Name: barba_11avatar
+      Dependencies: {}
+    Info_592:
+      Name: mesh_facial_09
+      Dependencies: {}
+    Info_593:
+      Name: bermuda_f_esporteavatar
+      Dependencies: {}
+    Info_594:
+      Name: mesh_facial_13
+      Dependencies: {}
+    Info_595:
+      Name: mesh_facial_08
+      Dependencies: {}
+    Info_596:
+      Name: barba_04avatar
+      Dependencies: {}
+    Info_597:
+      Name: mesh_facial_02
+      Dependencies: {}
+    Info_598:
+      Name: kit_carnaval_m_2017
+      Dependencies:
+        Dependency_0: confete_fx_particle
+        Dependency_1: kit_carnaval_2017_mestre_sala_01
+    Info_599:
+      Name: kit_carnaval_f_2017
+      Dependencies:
+        Dependency_0: confete_fx_particle
+        Dependency_1: kit_carnaval_2017_porta_bandeira_01
+    Info_600:
+      Name: bermuda_f_jeans
+      Dependencies: {}
+    Info_601:
+      Name: f_calca_normal
+      Dependencies: {}
+    Info_602:
+      Name: f_calca_lag
+      Dependencies: {}
+    Info_603:
+      Name: bermuda_f_lagavatar
+      Dependencies: {}
+    Info_604:
+      Name: bermuda_m_surf
+      Dependencies: {}

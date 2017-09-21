@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1703981645
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 13657a0fdd9a579c61b52c744e0b028d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9eb430792042ea1710d392461f970f1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49719ed0c0198db4db46c602432b5b41, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Barbas/IData/Editor/Resources/Barba_07_IData.asset
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_barba_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mesh_facial_07

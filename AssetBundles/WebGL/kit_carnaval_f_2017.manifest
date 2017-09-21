@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3390869096
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aca8cbc396a5943817115f2260d5b7c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5483a55788674b12c41ca68eece7ebef
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 451449d43db1aff49ae2947e38646d57, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Kits/Fbx/Kit_Carnaval_F_2017.prefab
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/confete_fx_particle
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/kit_carnaval_2017_porta_bandeira_01

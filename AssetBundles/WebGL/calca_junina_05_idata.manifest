@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1881475353
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c9b93a2a29771533a77a17db70fa1044
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ccd9338bfdbaa94abd07fd8da6d85399
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49719ed0c0198db4db46c602432b5b41, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8aef3d5a73bf6e14eaa53fa18202ca8d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Calcas/IData/Editor/Resources/Calca_Junina_05_IData.asset
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/kit_junino_exposedcontroller
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/calca
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/t_d_kit_junino_calca_01_05
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_calca_junina

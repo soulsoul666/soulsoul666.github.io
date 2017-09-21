@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1985636428
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 497b81792d056fd1a26e6ba1a46bf533
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4774d6da9b606debf00b5a5d61c4487c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Kits/Fbx/Textures/T_D_Kit_kimono_branco_01.png
+Dependencies: []

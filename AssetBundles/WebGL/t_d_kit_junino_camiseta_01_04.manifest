@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 967003923
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 717b8be6d1037649c38b24679130446c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4774d6da9b606debf00b5a5d61c4487c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Textures/T_D_Kit_Junino_camiseta_01_04.png
+Dependencies: []

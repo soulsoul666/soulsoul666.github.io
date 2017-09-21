@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1101468463
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a7bda8c522699d4a9f833a26e4c862f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Cabelos/Fbx/Textures/T_N_Cabelos_Fem_Kit01.tga
+Dependencies: []

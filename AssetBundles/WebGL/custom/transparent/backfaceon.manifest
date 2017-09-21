@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3679038688
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1c10b3d3490e1bcf06ff5e6f3d6008a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc7b69794a2bdada249e557ebbfded10
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Kits/Fbx/Shaders/Resources/Transparent_BackFaceOn.shader
+Dependencies: []

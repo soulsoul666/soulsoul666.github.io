@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 156316290
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65382295baa3137ceed02478e4c612a2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9eb430792042ea1710d392461f970f1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49719ed0c0198db4db46c602432b5b41, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Kits/IData/Editor/Resources/Kit_terno_M_IData.asset
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_corpo_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_terno_m_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/t_d_terno_masculino
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/kit_terno_masculinoavatar

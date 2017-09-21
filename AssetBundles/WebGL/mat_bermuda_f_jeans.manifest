@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 296034399
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a0f3b1fafb501f168a6be41853477ed6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0520077050483de6babb9bd310d40764
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Calcas/Fbx/Materials/Mat_Bermuda_F_jeans.mat
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/t_d_bermuda_f_jeans_azul
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/t_n_bermuda_f_jeans
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/custom/bumped
+  specular rim

@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 4280030114
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6c68408671d17ccc2947e3c6f2085a63
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 28f9aca72d7756d7876ce979d35f53fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Corpo/Animations/Animacao_TopD+_02.fbx
+Dependencies: []

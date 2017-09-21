@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2430880641
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 69d1e5da3b22399266afdacae659a4ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Kits/Particles/Textures/T_WhiteCircleSmall.png
+Dependencies: []

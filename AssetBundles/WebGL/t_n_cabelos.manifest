@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1924154706
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7a26f6b46f3aef23db6834933baa6702
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Cabelos/Fbx/Textures/T_N_Cabelos.tga
+Dependencies: []

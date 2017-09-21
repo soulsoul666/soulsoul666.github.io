@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 2844934731
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 350b304993b57a3530a862f80f8f7866
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 70d2ef6f9e26c9b3cc7d69180bb7e7c3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Vestidos/Fbx/Vestido_Tomara_que_caia_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Calcas/Fbx/Bermuda_F_Shorte_saia.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Calcas/Fbx/Bermuda_M_esporte.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Camiseta_M_Regata_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Vestidos/Fbx/Vestido_gravida_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Camiseta_F_Manga_Longa_Polo_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Camiseta_M_Manga_Curta_Polo_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Vestidos/Fbx/Vestido_Comum_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Camiseta_F_Regata_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Calcas/Fbx/Bermuda_M_jeans.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Vestidos/Fbx/Kit_Feminino_junino_vestido.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Camiseta_F_Manga_Curta_Polo_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Vestidos/Fbx/Vestido_Longo_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Camiseta_M_Botao_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Calcas/Fbx/Bermuda_M_algodao.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/Fbx/Camiseta_M_Manga_Longa_Polo_01.fbx
+Dependencies: []

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1692913172
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65ac5c291d142aacb0e43f8c207f27ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0520077050483de6babb9bd310d40764
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Vestidos/Fbx/Materials/Mat_Bestido_Longo_01.mat
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/t_n_vestido_longo01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/custom/bumped
+  specular rim

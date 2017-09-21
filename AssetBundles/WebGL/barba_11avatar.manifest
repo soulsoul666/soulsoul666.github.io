@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1899539721
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3687f2bb63c04906c2d60a48cb64b5bf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 70d2ef6f9e26c9b3cc7d69180bb7e7c3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Barbas/Fbx/Barba_11.fbx
+Dependencies: []

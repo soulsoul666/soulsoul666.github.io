@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 555570583
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f5f503baebb7951e909bbf6c12aa7242
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 70d2ef6f9e26c9b3cc7d69180bb7e7c3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Calcados/Fbx/Sapato_salto_02.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Calcados/Fbx/Sandalha_salto_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Calcados/Fbx/Sapato_salto_01.fbx
+- Assets/Robbyson/AssetFiles/3DModels/Calcados/Fbx/Sapato_social_01.fbx
+Dependencies: []

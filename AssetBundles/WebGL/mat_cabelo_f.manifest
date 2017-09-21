@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 449147200
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5baf15c04d0d91e7c51ee6b7cb9382da
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0520077050483de6babb9bd310d40764
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Cabelos/Fbx/Materials/Mat_Cabelo_F.mat
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/t_n_cabelos_fem_kit01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/custom/bumped
+  specular rim

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3973571582
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 82731a42c9462554e56155289c49f599
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Chapeus/Fbx/Textures/T_N_Chapeu_palha_01.png
+Dependencies: []

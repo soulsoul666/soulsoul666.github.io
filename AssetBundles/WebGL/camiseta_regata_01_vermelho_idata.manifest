@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3992461870
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d37a03185b79d1e3f364acc6391f95ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9eb430792042ea1710d392461f970f1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49719ed0c0198db4db46c602432b5b41, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Camisetas/IData/Editor/Resources/Camiseta_Regata_01_Vermelho_IData.asset
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_corpo_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_camisa_regata
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/t_d_camiseta_regata_vermelha_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/corpo

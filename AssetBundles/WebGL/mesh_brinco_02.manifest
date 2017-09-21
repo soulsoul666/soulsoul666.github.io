@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3967467590
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 538f11c1c6f6bc0a8824f2b5bfb9d167
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 52adad6783ed1b2389d3411984e73abb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Acessorios/Fbx/Brinco_01.fbx
+Dependencies: []

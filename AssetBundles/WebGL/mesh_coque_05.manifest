@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 954716968
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1af76da5c96887823f2c7e313620078d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 52adad6783ed1b2389d3411984e73abb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Cabelos/Fbx/Cabelo_F_05.fbx
+Dependencies: []

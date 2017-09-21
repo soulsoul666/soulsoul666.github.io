@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1413462501
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9801318a20915f1cb9d700fa9ee15f16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9eb430792042ea1710d392461f970f1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49719ed0c0198db4db46c602432b5b41, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Calcados/IData/Editor/Resources/Tenis_Allstar_01_IData.asset
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_corpo_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/mat_tennis_allstar_01
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/body_parte

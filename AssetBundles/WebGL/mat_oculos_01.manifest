@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 567211974
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59243157e743d9681f69a9299b463602
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02bb1a4f827934bc9f9224f61c0f3e4c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Oculos/Fbx/Materials/Mat_Oculos_01.mat
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/custom/bumped
+  specular rim

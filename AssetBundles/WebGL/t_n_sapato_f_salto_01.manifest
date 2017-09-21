@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3200559847
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ebb98c184838a4491be6233a0b6b093
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Calcados/Fbx/Textures/T_N_Sapato_F_Salto_01.png
+Dependencies: []

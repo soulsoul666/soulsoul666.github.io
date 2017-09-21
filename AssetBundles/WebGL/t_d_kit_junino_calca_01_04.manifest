@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 145999454
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 63d0e4f8a67299f0939ba22b447ed4f6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4774d6da9b606debf00b5a5d61c4487c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Calcas/Fbx/Textures/T_D_Kit_Junino_calca_01_04.png
+Dependencies: []

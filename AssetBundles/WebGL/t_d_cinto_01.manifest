@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3932765750
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea6e404e55b11090e0814a97ec6ff735
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4774d6da9b606debf00b5a5d61c4487c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Acessorios/Fbx/Textures/T_D_Cinto_01.png
+Dependencies: []

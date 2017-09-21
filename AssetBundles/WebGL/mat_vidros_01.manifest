@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3695357136
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c45391bc548f49c116245d91d6e3b0a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02bb1a4f827934bc9f9224f61c0f3e4c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Oculos/Fbx/Materials/Mat_Vidros_01.mat
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/custom/transparent/diffuse

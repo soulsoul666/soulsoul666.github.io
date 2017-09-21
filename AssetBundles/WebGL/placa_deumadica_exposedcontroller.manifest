@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 4000880380
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 81107e6bd92bda39b61c84cba72372dc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 49b432cbc2e3dabb17a8948e6976bd85
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8aef3d5a73bf6e14eaa53fa18202ca8d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Placas/CustomAnimators/Placa_DeUmaDica_ExposedController.asset
+Dependencies:
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/placa_deumadica_mainiddle
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/placa_deumadica_instart
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/placa_deumadica_outend
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/placa_deumadica_iddle
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/placa_deumadica_out
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/placa_deumadica_in
+- C:/Users/RafaPC/Documents/Git/Unity/Others/AeC_Robbyson_WebGL_5_6/AssetBundles/WebGL/placa_deumadica_controller

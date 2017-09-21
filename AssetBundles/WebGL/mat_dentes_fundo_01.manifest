@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1786931553
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89ff0fb2bd989d5cd09fe1f5431ab2b5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02bb1a4f827934bc9f9224f61c0f3e4c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Robbyson/AssetFiles/3DModels/Corpo/Fbx/Materials/Mat_Dentes_Fundo_01.mat
+Dependencies: []
